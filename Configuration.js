@@ -24,7 +24,6 @@ function getEndpoints(deviceAddress, endpoints)
   // temperatura, mientras que el segundo es un sensor de dióxido de carbono.
 
    endpoints.addEndpoint("1", "Peso", endpointType.genericSensor);
-  // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 }
 
 function validateDeviceAddress(address, result)
